@@ -8,6 +8,7 @@ import { JsxattributesComponent } from './mycomponents/jsxattributes/jsxattribut
 import { JsxfragmentsComponent } from './mycomponents/jsxfragments/jsxfragments.component';
 
 const routes: Routes = [
+  { path: '', component: WhatisjsxComponent, outlet: 'secondary' },
   { path: 'whatisjsx', component: WhatisjsxComponent, outlet: 'secondary' },
   { path: 'basicsyntax', component: BasicsyntaxComponent, outlet: 'secondary' },
   { path: 'jsxelements', component: JsxelementsComponent, outlet: 'secondary' },
