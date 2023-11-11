@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './mycomponents/header/header.component';
@@ -10,6 +11,9 @@ import { JsxelementsComponent } from './mycomponents/jsxelements/jsxelements.com
 import { ExpressionsComponent } from './mycomponents/expressions/expressions.component';
 import { JsxattributesComponent } from './mycomponents/jsxattributes/jsxattributes.component';
 import { JsxfragmentsComponent } from './mycomponents/jsxfragments/jsxfragments.component';
+import { QuizComponent } from './mycomponents/quiz/quiz.component';
+import { YoutubeComponent } from './mycomponents/youtube/youtube.component';
+
 
 @NgModule({
   declarations: [
@@ -21,9 +25,13 @@ import { JsxfragmentsComponent } from './mycomponents/jsxfragments/jsxfragments.
     ExpressionsComponent,
     JsxattributesComponent,
     JsxfragmentsComponent,
+    QuizComponent,
+    YoutubeComponent
   ],
   imports: [
     BrowserModule,
+    
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],

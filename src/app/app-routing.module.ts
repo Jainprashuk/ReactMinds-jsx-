@@ -6,6 +6,9 @@ import { JsxelementsComponent } from './mycomponents/jsxelements/jsxelements.com
 import { ExpressionsComponent } from './mycomponents/expressions/expressions.component';
 import { JsxattributesComponent } from './mycomponents/jsxattributes/jsxattributes.component';
 import { JsxfragmentsComponent } from './mycomponents/jsxfragments/jsxfragments.component';
+import { YoutubeComponent } from './mycomponents/youtube/youtube.component';
+import { QuizComponent } from './mycomponents/quiz/quiz.component';
+import { MycompilerComponent } from './mycomponents/mycompiler/mycompiler.component';
 
 const routes: Routes = [
   { path: '', component: WhatisjsxComponent, outlet: 'secondary' },
@@ -15,6 +18,9 @@ const routes: Routes = [
   { path: 'expressions', component: ExpressionsComponent, outlet: 'secondary' },
   { path: 'jsxattributes', component: JsxattributesComponent, outlet: 'secondary' },
   { path: 'jsxfragments', component: JsxfragmentsComponent, outlet: 'secondary' },
+  { path: 'youtube', component: YoutubeComponent, outlet: 'secondary' },
+  { path: 'quiz', component: QuizComponent, outlet: 'secondary' },
+  { path: 'mycompiler', component: MycompilerComponent, outlet: 'secondary' },
 ];
 
 @NgModule({
